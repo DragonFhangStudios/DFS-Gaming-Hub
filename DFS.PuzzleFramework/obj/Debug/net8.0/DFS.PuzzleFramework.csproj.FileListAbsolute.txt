@@ -1,0 +1,16 @@
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\bin\Debug\net8.0\DFS.PuzzleFramework.deps.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\bin\Debug\net8.0\DFS.PuzzleFramework.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\bin\Debug\net8.0\DFS.PuzzleFramework.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\bin\Debug\net8.0\DFS.Core.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\bin\Debug\net8.0\DFS.Core.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\DFS.PuzzleFramework.csproj.AssemblyReference.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\DFS.PuzzleFramework.GeneratedMSBuildEditorConfig.editorconfig
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\DFS.PuzzleFramework.AssemblyInfoInputs.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\DFS.PuzzleFramework.AssemblyInfo.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\DFS.PuzzleFramework.csproj.CoreCompileInputs.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\DFS.PuzzleFramework.sourcelink.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\DFS.Puzz.9BD974C6.Up2Date
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\DFS.PuzzleFramework.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\refint\DFS.PuzzleFramework.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\DFS.PuzzleFramework.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.PuzzleFramework\obj\Debug\net8.0\ref\DFS.PuzzleFramework.dll

@@ -1,0 +1,16 @@
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\bin\Debug\net8.0\DFS.UnityConnector.deps.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\bin\Debug\net8.0\DFS.UnityConnector.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\bin\Debug\net8.0\DFS.UnityConnector.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\bin\Debug\net8.0\DFS.Core.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\bin\Debug\net8.0\DFS.Core.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\DFS.UnityConnector.csproj.AssemblyReference.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\DFS.UnityConnector.GeneratedMSBuildEditorConfig.editorconfig
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\DFS.UnityConnector.AssemblyInfoInputs.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\DFS.UnityConnector.AssemblyInfo.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\DFS.UnityConnector.csproj.CoreCompileInputs.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\DFS.UnityConnector.sourcelink.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\DFS.Unit.ED6D46D0.Up2Date
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\DFS.UnityConnector.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\refint\DFS.UnityConnector.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\DFS.UnityConnector.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.UnityConnector\obj\Debug\net8.0\ref\DFS.UnityConnector.dll

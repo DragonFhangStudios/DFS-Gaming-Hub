@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DFS.PuzzleFramework/1.0.0": {
+        "dependencies": {
+          "DFS.Core": "1.0.0"
+        },
+        "runtime": {
+          "DFS.PuzzleFramework.dll": {}
+        }
+      },
+      "DFS.Core/1.0.0": {
+        "runtime": {
+          "DFS.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DFS.PuzzleFramework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DFS.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
