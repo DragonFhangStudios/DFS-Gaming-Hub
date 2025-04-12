@@ -1,8 +1,8 @@
 ﻿<Window x:Class="DFS.DevLauncher.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Dragon Fhang Studios - Dev Dashboard" Height="400" Width="600"
-        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Dragon Fhang Studios - Dev Dashboard" Height="800" Width="800"
+        ResizeMode="CanResize" WindowStartupLocation="CenterScreen">
 
     <StackPanel Margin="30" HorizontalAlignment="Center">
         <TextBlock Text="🐉 Dragon Fhang Studios" 
@@ -35,5 +35,9 @@
                    FontSize="12" 
                    Foreground="Gray" 
                    TextAlignment="Center"/>
+        <Separator Margin="0 20 0 10"/>
+        <TextBlock Text="🧪 JobSystem Test Panel" FontSize="18" FontWeight="Bold"/>
+        <Button Content="Run Delivery Job Test" Click="RunDeliveryJob_Click" Margin="0 10" Height="35"/>
+        <ListBox x:Name="JobOutputPanel" Height="500" Margin="0 10"/>
     </StackPanel>
 </Window>

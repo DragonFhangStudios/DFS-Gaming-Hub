@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DFS.JobSystem.Data;
+using DFS.JobSystem.Managers;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Windows;
@@ -42,6 +44,37 @@ namespace DFS.DevLauncher
 				StatusLog.Text = "❌ Project Syndicate not found. Build it first!";
 				MessageBox.Show("Project Syndicate not found. Build it first!", "Launch Failed");
 			}
+		}
+		private void RunDeliveryJob_Click(object sender, RoutedEventArgs e)
+		{
+			JobOutputPanel.Items.Clear();
+
+			var jobManager = new JobManager();
+			JobLoader.RegisterAllJobs(jobManager);
+
+			var job = jobManager.GetJob("delivery_driver");
+
+			if (job == null)
+			{
+				JobOutputPanel.Items.Add("❌ Job not found.");
+				return;
+			}
+
+			JobOutputPanel.Items.Add($"💼 Job: {job.Title} - Tier {job.Tier}");
+			JobOutputPanel.Items.Add($"📄 Description: {job.Description}");
+			JobOutputPanel.Items.Add("-----");
+
+			int totalPay = 0;
+
+			foreach (var task in job.Tasks)
+			{
+				task.IsCompleted = true; // Simulate completion
+				totalPay += task.Reward;
+				JobOutputPanel.Items.Add($"✔️ {task.Name} - ${task.Reward}");
+			}
+
+			JobOutputPanel.Items.Add("-----");
+			JobOutputPanel.Items.Add($"💰 Total Payout: ${totalPay}");
 		}
 	}
 }

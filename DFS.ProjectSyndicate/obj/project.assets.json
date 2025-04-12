@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/DFS.Core.dll": {}
         }
+      },
+      "DFS.JobSystem/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DFS.JobSystem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DFS.JobSystem.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../DFS.Core/DFS.Core.csproj",
       "msbuildProject": "../DFS.Core/DFS.Core.csproj"
+    },
+    "DFS.JobSystem/1.0.0": {
+      "type": "project",
+      "path": "../DFS.JobSystem/DFS.JobSystem.csproj",
+      "msbuildProject": "../DFS.JobSystem/DFS.JobSystem.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "DFS.Core >= 1.0.0"
+      "DFS.Core >= 1.0.0",
+      "DFS.JobSystem >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,6 +77,9 @@
           "projectReferences": {
             "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj": {
               "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj"
+            },
+            "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.JobSystem\\DFS.JobSystem.csproj": {
+              "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.JobSystem\\DFS.JobSystem.csproj"
             }
           }
         }

@@ -57,3 +57,7 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windo
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.pdb
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.genruntimeconfig.cache
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\ref\DFS.ProjectSyndicate.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\JobsView.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.JobSystem.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.JobSystem.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\JobsView.baml

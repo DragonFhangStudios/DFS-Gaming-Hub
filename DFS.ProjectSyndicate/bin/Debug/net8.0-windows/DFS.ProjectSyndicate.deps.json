@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "DFS.ProjectSyndicate/1.0.0": {
         "dependencies": {
-          "DFS.Core": "1.0.0"
+          "DFS.Core": "1.0.0",
+          "DFS.JobSystem": "1.0.0"
         },
         "runtime": {
           "DFS.ProjectSyndicate.dll": {}
@@ -17,6 +18,14 @@
       "DFS.Core/1.0.0": {
         "runtime": {
           "DFS.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DFS.JobSystem/1.0.0": {
+        "runtime": {
+          "DFS.JobSystem.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -31,6 +40,11 @@
       "sha512": ""
     },
     "DFS.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DFS.JobSystem/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
