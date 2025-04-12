@@ -1,0 +1,2 @@
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.JobSystem\obj\Debug\DFS.JobSystem.csproj.AssemblyReference.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.JobSystem\obj\Debug\DFS.JobSystem.csproj.CoreCompileInputs.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DFS.DevLauncher/1.0.0": {
+        "runtime": {
+          "DFS.DevLauncher.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DFS.DevLauncher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

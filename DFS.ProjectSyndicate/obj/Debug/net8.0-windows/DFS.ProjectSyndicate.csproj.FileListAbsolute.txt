@@ -1,0 +1,59 @@
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.exe
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.deps.json
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.runtimeconfig.json
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.dll
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.pdb
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\bin\Debug\net8.0-windows\DFS.Core.dll
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\bin\Debug\net8.0-windows\DFS.Core.pdb
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.csproj.AssemblyReference.cache
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\Views\CrimeView.g.cs
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\Views\DashboardView.g.cs
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\App.g.cs
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate_MarkupCompile.cache
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate_MarkupCompile.lref
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\MainWindow.baml
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\Views\CrimeView.baml
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\Views\DashboardView.baml
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.g.resources
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.GeneratedMSBuildEditorConfig.editorconfig
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.AssemblyInfoInputs.cache
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.AssemblyInfo.cs
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.csproj.CoreCompileInputs.cache
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.Proj.C2845340.Up2Date
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.dll
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\refint\DFS.ProjectSyndicate.dll
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.pdb
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.genruntimeconfig.cache
+E:\!Dragon Fhang Studio stuff\!C# Programs\ProjectSyndicate\ProjectSyndicate\obj\Debug\net8.0-windows\ref\DFS.ProjectSyndicate.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.exe
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.deps.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.runtimeconfig.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.Core.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.Core.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.csproj.AssemblyReference.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\CrimeView.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\DashboardView.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\App.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate_MarkupCompile.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate_MarkupCompile.lref
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\MainWindow.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\CrimeView.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\DashboardView.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.g.resources
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.GeneratedMSBuildEditorConfig.editorconfig
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.AssemblyInfoInputs.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.AssemblyInfo.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.csproj.CoreCompileInputs.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.sourcelink.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.Proj.C2845340.Up2Date
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\refint\DFS.ProjectSyndicate.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.genruntimeconfig.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\ref\DFS.ProjectSyndicate.dll

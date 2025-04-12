@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "DFS.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DFS.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DFS.Core.dll": {}
+        }
+      },
+      "DFS.PuzzleFramework/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "DFS.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DFS.PuzzleFramework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DFS.PuzzleFramework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DFS.Core/1.0.0": {
+      "type": "project",
+      "path": "../DFS.Core/DFS.Core.csproj",
+      "msbuildProject": "../DFS.Core/DFS.Core.csproj"
+    },
+    "DFS.PuzzleFramework/1.0.0": {
+      "type": "project",
+      "path": "../DFS.PuzzleFramework/DFS.PuzzleFramework.csproj",
+      "msbuildProject": "../DFS.PuzzleFramework/DFS.PuzzleFramework.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "DFS.Core >= 1.0.0",
+      "DFS.PuzzleFramework >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\metal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.WPFLauncher\\DFS.WPFLauncher.csproj",
+      "projectName": "DFS.WPFLauncher",
+      "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.WPFLauncher\\DFS.WPFLauncher.csproj",
+      "packagesPath": "C:\\Users\\metal\\.nuget\\packages\\",
+      "outputPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.WPFLauncher\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\metal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj": {
+              "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj"
+            },
+            "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.PuzzleFramework\\DFS.PuzzleFramework.csproj": {
+              "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.PuzzleFramework\\DFS.PuzzleFramework.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

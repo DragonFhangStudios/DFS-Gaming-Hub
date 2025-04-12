@@ -1,0 +1,8 @@
+﻿<Window x:Class="DFS.WPFLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Puzzle Debug Grid" Height="450" Width="800">
+    <ScrollViewer>
+        <UniformGrid x:Name="PuzzleGrid" Rows="6" Columns="6" Margin="10"/>
+    </ScrollViewer>
+</Window>

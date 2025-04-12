@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|e:\\!dragon fhang studio stuff\\!c# programs\\projectsyndicate\\projectsyndicate\\views\\crimeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|solutionrelative:views\\crimeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|e:\\!dragon fhang studio stuff\\!c# programs\\projectsyndicate\\projectsyndicate\\viewmodels\\crimeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|solutionrelative:viewmodels\\crimeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|e:\\!dragon fhang studio stuff\\!c# programs\\projectsyndicate\\projectsyndicate\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|e:\\!dragon fhang studio stuff\\!c# programs\\projectsyndicate\\projectsyndicate\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|e:\\!dragon fhang studio stuff\\!c# programs\\projectsyndicate\\projectsyndicate\\views\\crimeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|solutionrelative:views\\crimeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|e:\\!dragon fhang studio stuff\\!c# programs\\projectsyndicate\\projectsyndicate\\models\\crime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|solutionrelative:models\\crime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|e:\\!dragon fhang studio stuff\\!c# programs\\projectsyndicate\\projectsyndicate\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|solutionrelative:views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|e:\\!dragon fhang studio stuff\\!c# programs\\projectsyndicate\\projectsyndicate\\models\\syndicateplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|solutionrelative:models\\syndicateplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|e:\\!dragon fhang studio stuff\\!c# programs\\projectsyndicate\\projectsyndicate\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66E7D43-3215-4C4E-B0A9-B614A8DDB266}|ProjectSyndicate.csproj|solutionrelative:viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T21:35:45.4Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:35:44.13Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrimeView.xaml.cs",
+              "DocumentMoniker": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\Views\\CrimeView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CrimeView.xaml.cs",
+              "ToolTip": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\Views\\CrimeView.xaml.cs",
+              "RelativeToolTip": "Views\\CrimeView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T22:40:14.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CrimeView.xaml",
+              "DocumentMoniker": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\Views\\CrimeView.xaml",
+              "RelativeDocumentMoniker": "Views\\CrimeView.xaml",
+              "ToolTip": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\Views\\CrimeView.xaml",
+              "RelativeToolTip": "Views\\CrimeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T22:39:00.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrimeViewModel.cs",
+              "DocumentMoniker": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\ViewModels\\CrimeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CrimeViewModel.cs",
+              "ToolTip": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\ViewModels\\CrimeViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CrimeViewModel.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T22:38:15.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Crime.cs",
+              "DocumentMoniker": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\Models\\Crime.cs",
+              "RelativeDocumentMoniker": "Models\\Crime.cs",
+              "ToolTip": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\Models\\Crime.cs",
+              "RelativeToolTip": "Models\\Crime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T22:36:17.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\Views\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "Views\\DashboardView.xaml",
+              "ToolTip": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\Views\\DashboardView.xaml",
+              "RelativeToolTip": "Views\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T22:18:58.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T22:13:00.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SyndicatePlayer.cs",
+              "DocumentMoniker": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\Models\\SyndicatePlayer.cs",
+              "RelativeDocumentMoniker": "Models\\SyndicatePlayer.cs",
+              "ToolTip": "E:\\!Dragon Fhang Studio stuff\\!C# Programs\\ProjectSyndicate\\ProjectSyndicate\\Models\\SyndicatePlayer.cs",
+              "RelativeToolTip": "Models\\SyndicatePlayer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T22:12:11.511Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

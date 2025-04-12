@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DFS.PuzzleFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f971bca8cd978c2f976a8f54d6e9012d4c3da599")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+072c817edd5fe786db27d5abac49beeb29b95078")]
 [assembly: System.Reflection.AssemblyProductAttribute("DFS.PuzzleFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DFS.PuzzleFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
