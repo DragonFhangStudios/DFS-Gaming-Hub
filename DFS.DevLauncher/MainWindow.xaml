@@ -36,8 +36,8 @@
                    Foreground="Gray" 
                    TextAlignment="Center"/>
         <Separator Margin="0 20 0 10"/>
-        <TextBlock Text="🧪 JobSystem Test Panel" FontSize="18" FontWeight="Bold"/>
+        <!-- <TextBlock Text="🧪 JobSystem Test Panel" FontSize="18" FontWeight="Bold"/>
         <Button Content="Run Delivery Job Test" Click="RunDeliveryJob_Click" Margin="0 10" Height="35"/>
-        <ListBox x:Name="JobOutputPanel" Height="500" Margin="0 10"/>
+        <ListBox x:Name="JobOutputPanel" Height="500" Margin="0 10"/> -->
     </StackPanel>
 </Window>

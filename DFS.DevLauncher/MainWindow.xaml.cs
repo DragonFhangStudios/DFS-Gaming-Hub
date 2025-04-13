@@ -45,7 +45,7 @@ namespace DFS.DevLauncher
 				MessageBox.Show("Project Syndicate not found. Build it first!", "Launch Failed");
 			}
 		}
-		private void RunDeliveryJob_Click(object sender, RoutedEventArgs e)
+		/*private void RunDeliveryJob_Click(object sender, RoutedEventArgs e)
 		{
 			JobOutputPanel.Items.Clear();
 
@@ -75,6 +75,6 @@ namespace DFS.DevLauncher
 
 			JobOutputPanel.Items.Add("-----");
 			JobOutputPanel.Items.Add($"💰 Total Payout: ${totalPay}");
-		}
+		}*/
 	}
 }

@@ -33,11 +33,14 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windo
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.dll
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.pdb
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.Core.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.JobSystem.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.JobSystem.pdb
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.Core.pdb
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.csproj.AssemblyReference.cache
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\CrimeView.g.cs
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\DashboardView.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\JobsView.g.cs
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\App.g.cs
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate_MarkupCompile.cache
@@ -45,6 +48,7 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windo
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\MainWindow.baml
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\CrimeView.baml
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\DashboardView.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\JobsView.baml
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.g.resources
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.GeneratedMSBuildEditorConfig.editorconfig
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.AssemblyInfoInputs.cache
@@ -57,7 +61,5 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windo
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.pdb
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\DFS.ProjectSyndicate.genruntimeconfig.cache
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\ref\DFS.ProjectSyndicate.dll
-D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\JobsView.g.cs
-D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.JobSystem.dll
-D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.JobSystem.pdb
-D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\JobsView.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\LoginView.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\LoginView.baml

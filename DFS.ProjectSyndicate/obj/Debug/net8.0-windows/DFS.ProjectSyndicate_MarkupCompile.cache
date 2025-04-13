@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\App.xaml
-4-268365328
+552531963
 
-15-685620921
+21-54669578
 200-479252316
-MainWindow.xaml;Views\CrimeView.xaml;Views\DashboardView.xaml;Views\JobsView.xaml;
+MainWindow.xaml;Views\CrimeView.xaml;Views\DashboardView.xaml;Views\JobsView.xaml;Views\LoginView.xaml;
 
-True
+False
 
