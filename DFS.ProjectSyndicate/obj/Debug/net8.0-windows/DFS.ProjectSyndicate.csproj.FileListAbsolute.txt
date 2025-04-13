@@ -63,3 +63,9 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windo
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\ref\DFS.ProjectSyndicate.dll
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\LoginView.g.cs
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windows\Views\LoginView.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\Data\SimpleJobs.json

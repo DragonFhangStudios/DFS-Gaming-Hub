@@ -6,3 +6,5 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.JobSystem\obj\Debug\netstandard2.1\DFS.
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.JobSystem\obj\Debug\netstandard2.1\DFS.JobSystem.sourcelink.json
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.JobSystem\obj\Debug\netstandard2.1\DFS.JobSystem.dll
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.JobSystem\obj\Debug\netstandard2.1\DFS.JobSystem.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.JobSystem\obj\Debug\netstandard2.1\DFS.JobSystem.csproj.AssemblyReference.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.JobSystem\bin\Debug\netstandard2.1\Data\SimpleJobs.json

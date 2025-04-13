@@ -24,3 +24,9 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\obj\Debug\net8.0-windows\re
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\obj\Debug\net8.0-windows\DFS.DevLauncher.pdb
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\obj\Debug\net8.0-windows\DFS.DevLauncher.genruntimeconfig.cache
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\obj\Debug\net8.0-windows\ref\DFS.DevLauncher.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\Data\SimpleJobs.json

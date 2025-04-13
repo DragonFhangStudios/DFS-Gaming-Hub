@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kZsyi/CVO3I=",
+  "dgSpecHash": "B4fE+OFF5FM=",
   "success": true,
   "projectFilePath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.DevLauncher\\DFS.DevLauncher.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\metal\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\metal\\.nuget\\packages\\system.io.pipelines\\9.0.4\\system.io.pipelines.9.0.4.nupkg.sha512",
+    "C:\\Users\\metal\\.nuget\\packages\\system.text.encodings.web\\9.0.4\\system.text.encodings.web.9.0.4.nupkg.sha512",
+    "C:\\Users\\metal\\.nuget\\packages\\system.text.json\\9.0.4\\system.text.json.9.0.4.nupkg.sha512"
+  ],
   "logs": []
 }
