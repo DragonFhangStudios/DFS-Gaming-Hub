@@ -1,0 +1,72 @@
+﻿<Window x:Class="DFS.CharacterForge.CharacterForge"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Character Forge: The First Reform" Height="600" Width="900"
+        Background="#1E1E1E"
+        Loaded="CharacterForge_Loaded">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Title -->
+        <TextBlock Grid.ColumnSpan="2"
+                   Text="⚙ CHARACTER FORGE: THE FIRST REFORM ⚙"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   Foreground="Orange"
+                   HorizontalAlignment="Center"
+                   Margin="0,10"/>
+
+        <!-- ComboBox (for future theme/character choice) -->
+        <ComboBox x:Name="ThemeComboBox"
+                  Grid.Row="1" Margin="0,10" Width="200"
+                  HorizontalAlignment="Center"
+                  SelectionChanged="ThemeComboBox_SelectionChanged">
+            <ComboBoxItem Content="Post-Apocalyptic" IsSelected="True"/>
+        </ComboBox>
+
+        <!-- Backstory Log -->
+        <GroupBox Header=":: BACKSTORY LOG ::" 
+                  Foreground="Orange" BorderBrush="Orange"
+                  Grid.Row="2" Grid.Column="0" Margin="5">
+            <TextBox x:Name="BackstoryBox" 
+                     Background="#2D2D30"
+                     Foreground="White" 
+                     BorderBrush="Orange"
+                     VerticalScrollBarVisibility="Auto"
+                     TextWrapping="Wrap" 
+                     AcceptsReturn="True"/>
+        </GroupBox>
+
+        <!-- Flavor Details -->
+        <GroupBox Header=":: FLAVOR MODULE ::" 
+                  Foreground="Orange" BorderBrush="Orange"
+                  Grid.Row="2" Grid.Column="1" Margin="5">
+            <StackPanel>
+                <TextBlock Text="Cursed Item:" Foreground="White"/>
+                <TextBox x:Name="CursedItemBox" Margin="0,0,0,10"/>
+                <TextBlock Text="Secret:" Foreground="White"/>
+                <TextBox x:Name="SecretBox"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Button -->
+        <Button Grid.Row="3" Grid.ColumnSpan="2"
+                Content="⚛ GENERATE BACKSTORY"
+                Background="Orange" Foreground="Black"
+                FontWeight="Bold"
+                Margin="0,15"
+                Width="200" Height="40"
+                HorizontalAlignment="Center"
+                Click="GenerateButton_Click"/>
+    </Grid>
+</Window>

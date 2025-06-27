@@ -1,5 +1,6 @@
 ﻿using DFS.JobSystem.Data;
 using DFS.JobSystem.Managers;
+using DFS.CharacterForge;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -43,6 +44,20 @@ namespace DFS.DevLauncher
 			{
 				StatusLog.Text = "❌ Project Syndicate not found. Build it first!";
 				MessageBox.Show("Project Syndicate not found. Build it first!", "Launch Failed");
+			}
+		}
+		private void LaunchCharacterForge_Click(object sender, RoutedEventArgs e)
+		{
+			try
+			{
+				var forge = new DFS.CharacterForge.CharacterForge(); // adjust namespace if needed
+				forge.Show();
+
+				StatusLog.Text = "🧙‍♂️ Character Forge launched successfully.";
+			}
+			catch (Exception ex)
+			{
+				StatusLog.Text = $"❌ Failed to launch Character Forge: {ex.Message}";
 			}
 		}
 		/*private void RunDeliveryJob_Click(object sender, RoutedEventArgs e)

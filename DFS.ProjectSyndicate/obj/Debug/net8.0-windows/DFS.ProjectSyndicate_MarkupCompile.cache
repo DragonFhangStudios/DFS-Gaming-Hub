@@ -8,12 +8,12 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\obj\Debug\net8.0-windo
 DFS.ProjectSyndicate
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.ProjectSyndicate\App.xaml
 552531963
 
 221716625258
-202-894907458
+202-1796437880
 MainWindow.xaml;Views\CrimeView.xaml;Views\DashboardView.xaml;Views\JobsView.xaml;Views\LoginView.xaml;
 
 False

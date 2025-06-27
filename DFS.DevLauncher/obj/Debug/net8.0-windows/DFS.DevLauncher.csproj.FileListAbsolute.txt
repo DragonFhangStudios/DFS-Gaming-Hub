@@ -30,3 +30,8 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\Sy
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\System.Text.Json.dll
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\Data\SimpleJobs.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\DFS.CharacterForge.deps.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\DFS.CharacterForge.runtimeconfig.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\DFS.CharacterForge.exe
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\DFS.CharacterForge.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.DevLauncher\bin\Debug\net8.0-windows\DFS.CharacterForge.pdb

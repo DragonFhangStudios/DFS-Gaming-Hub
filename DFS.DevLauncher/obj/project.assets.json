@@ -73,6 +73,19 @@
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
       },
+      "DFS.CharacterForge/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DFS.CharacterForge.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DFS.CharacterForge.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "DFS.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -261,6 +274,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "DFS.CharacterForge/1.0.0": {
+      "type": "project",
+      "path": "../DFS.CharacterForge/DFS.CharacterForge.csproj",
+      "msbuildProject": "../DFS.CharacterForge/DFS.CharacterForge.csproj"
+    },
     "DFS.Core/1.0.0": {
       "type": "project",
       "path": "../DFS.Core/DFS.Core.csproj",
@@ -274,6 +292,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "DFS.CharacterForge >= 1.0.0",
       "DFS.Core >= 1.0.0",
       "DFS.JobSystem >= 1.0.0"
     ]
@@ -311,6 +330,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\DFS.CharacterForge.csproj": {
+              "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\DFS.CharacterForge.csproj"
+            },
             "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj": {
               "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj"
             },
@@ -330,7 +352,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -354,7 +376,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DFS.CharacterForge\DFS.CharacterForge.csproj" />
     <ProjectReference Include="..\DFS.Core\DFS.Core.csproj" />
     <ProjectReference Include="..\DFS.JobSystem\DFS.JobSystem.csproj" />
   </ItemGroup>

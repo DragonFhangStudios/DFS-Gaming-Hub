@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS.WebHub", "..\DFS.WebHub\DFS.WebHub.csproj", "{47C0EDE2-5A11-4464-B742-B72F99BC634B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS.CharacterForge", "..\DFS.CharacterForge\DFS.CharacterForge.csproj", "{3F8ABB7C-334F-489E-B77B-8E33447CECCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{47C0EDE2-5A11-4464-B742-B72F99BC634B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47C0EDE2-5A11-4464-B742-B72F99BC634B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47C0EDE2-5A11-4464-B742-B72F99BC634B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8ABB7C-334F-489E-B77B-8E33447CECCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8ABB7C-334F-489E-B77B-8E33447CECCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8ABB7C-334F-489E-B77B-8E33447CECCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8ABB7C-334F-489E-B77B-8E33447CECCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

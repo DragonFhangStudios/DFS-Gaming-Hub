@@ -29,6 +29,13 @@
                 Padding="10" 
                 ToolTip="Launch Project Syndicate dashboard"/>
 
+        <Button Content="🧙‍♂️ Character Forge"
+                Click="LaunchCharacterForge_Click"
+                Width="240"
+                Height="40"
+                Margin="0,10"
+                ToolTip="Launch Character Forge dashboard"/>
+
         <TextBlock x:Name="StatusLog" 
                    Margin="0 30 0 0" 
                    FontStyle="Italic" 
