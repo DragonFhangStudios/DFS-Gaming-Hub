@@ -48,16 +48,17 @@ namespace DFS.DevLauncher
 		}
 		private void LaunchCharacterForge_Click(object sender, RoutedEventArgs e)
 		{
-			try
-			{
-				var forge = new DFS.CharacterForge.CharacterForge(); // adjust namespace if needed
-				forge.Show();
+			string forgePath = Path.GetFullPath(@"..\..\..\..\DFS.CharacterForge\bin\Debug\net8.0-windows\DFS.CharacterForge.exe");
 
-				StatusLog.Text = "🧙‍♂️ Character Forge launched successfully.";
-			}
-			catch (Exception ex)
+			if (File.Exists(forgePath))
 			{
-				StatusLog.Text = $"❌ Failed to launch Character Forge: {ex.Message}";
+				StatusLog.Text = "Launching Character Forge...";
+				Process.Start(forgePath);
+			}
+			else
+			{
+				StatusLog.Text = "❌ Character Forge not found. Build it first!";
+				MessageBox.Show("Character Forge not found. Build it first!", "Launch Failed");
 			}
 		}
 		/*private void RunDeliveryJob_Click(object sender, RoutedEventArgs e)

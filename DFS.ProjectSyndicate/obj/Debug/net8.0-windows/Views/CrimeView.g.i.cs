@@ -61,7 +61,7 @@ namespace DFS.ProjectSyndicate.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DFS.ProjectSyndicate;component/views/crimeview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DFS.ProjectSyndicate;V1.0.0.0;component/views/crimeview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\CrimeView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

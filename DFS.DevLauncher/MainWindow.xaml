@@ -31,9 +31,11 @@
 
         <Button Content="🧙‍♂️ Character Forge"
                 Click="LaunchCharacterForge_Click"
-                Width="240"
-                Height="40"
-                Margin="0,10"
+                Margin="0 10" 
+                Height="45" 
+                Width="350"
+                FontSize="16" 
+                Padding="10"
                 ToolTip="Launch Character Forge dashboard"/>
 
         <TextBlock x:Name="StatusLog" 

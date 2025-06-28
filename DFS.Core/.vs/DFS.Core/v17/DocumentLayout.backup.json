@@ -3,10 +3,28 @@
   "WorkspaceRootPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F8ABB7C-334F-489E-B77B-8E33447CECCB}|..\\DFS.CharacterForge\\DFS.CharacterForge.csproj|d:\\dragonfhangstudios\\dfs-gaming-hub\\dfs.characterforge\\characterforge.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3F8ABB7C-334F-489E-B77B-8E33447CECCB}|..\\DFS.CharacterForge\\DFS.CharacterForge.csproj|d:\\dragonfhangstudios\\dfs-gaming-hub\\dfs.characterforge\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8ABB7C-334F-489E-B77B-8E33447CECCB}|..\\DFS.CharacterForge\\DFS.CharacterForge.csproj|d:\\dragonfhangstudios\\dfs-gaming-hub\\dfs.characterforge\\dfs.characterforge.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D61C45AB-A144-4273-B512-AC5FC7A6CB56}|..\\DFS.DevLauncher\\DFS.DevLauncher.csproj|d:\\dragonfhangstudios\\dfs-gaming-hub\\dfs.devlauncher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8ABB7C-334F-489E-B77B-8E33447CECCB}|..\\DFS.CharacterForge\\DFS.CharacterForge.csproj|d:\\dragonfhangstudios\\dfs-gaming-hub\\dfs.characterforge\\views\\charactersheet.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D61C45AB-A144-4273-B512-AC5FC7A6CB56}|..\\DFS.DevLauncher\\DFS.DevLauncher.csproj|d:\\dragonfhangstudios\\dfs-gaming-hub\\dfs.devlauncher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8ABB7C-334F-489E-B77B-8E33447CECCB}|..\\DFS.CharacterForge\\DFS.CharacterForge.csproj|d:\\dragonfhangstudios\\dfs-gaming-hub\\dfs.characterforge\\views\\charactersheet.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F8ABB7C-334F-489E-B77B-8E33447CECCB}|..\\DFS.CharacterForge\\DFS.CharacterForge.csproj|d:\\dragonfhangstudios\\dfs-gaming-hub\\dfs.characterforge\\characterforge.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8ABB7C-334F-489E-B77B-8E33447CECCB}|..\\DFS.CharacterForge\\DFS.CharacterForge.csproj|d:\\dragonfhangstudios\\dfs-gaming-hub\\dfs.characterforge\\characterforge.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,28 +46,102 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\App.xaml",
+              "RelativeDocumentMoniker": "..\\DFS.CharacterForge\\App.xaml",
+              "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\App.xaml",
+              "RelativeToolTip": "..\\DFS.CharacterForge\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-27T20:00:14.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DFS.CharacterForge",
+              "DocumentMoniker": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\DFS.CharacterForge.csproj",
+              "RelativeDocumentMoniker": "..\\DFS.CharacterForge\\DFS.CharacterForge.csproj",
+              "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\DFS.CharacterForge.csproj",
+              "RelativeToolTip": "..\\DFS.CharacterForge\\DFS.CharacterForge.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-27T20:00:02.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.DevLauncher\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\DFS.DevLauncher\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.DevLauncher\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\DFS.DevLauncher\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwD4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T19:55:02.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CharacterSheet.xaml.cs",
+              "DocumentMoniker": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\Views\\CharacterSheet.xaml.cs",
+              "RelativeDocumentMoniker": "..\\DFS.CharacterForge\\Views\\CharacterSheet.xaml.cs",
+              "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\Views\\CharacterSheet.xaml.cs",
+              "RelativeToolTip": "..\\DFS.CharacterForge\\Views\\CharacterSheet.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T19:50:58.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacterSheet.xaml",
+              "DocumentMoniker": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\Views\\CharacterSheet.xaml",
+              "RelativeDocumentMoniker": "..\\DFS.CharacterForge\\Views\\CharacterSheet.xaml",
+              "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\Views\\CharacterSheet.xaml",
+              "RelativeToolTip": "..\\DFS.CharacterForge\\Views\\CharacterSheet.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-27T19:50:34.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.DevLauncher\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\DFS.DevLauncher\\MainWindow.xaml",
+              "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.DevLauncher\\MainWindow.xaml",
+              "RelativeToolTip": "..\\DFS.DevLauncher\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-27T19:33:09.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CharacterForge.xaml.cs",
               "DocumentMoniker": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\CharacterForge.xaml.cs",
               "RelativeDocumentMoniker": "..\\DFS.CharacterForge\\CharacterForge.xaml.cs",
               "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\CharacterForge.xaml.cs",
               "RelativeToolTip": "..\\DFS.CharacterForge\\CharacterForge.xaml.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T00:24:13.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "CharacterForge.xaml",
               "DocumentMoniker": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\CharacterForge.xaml",
               "RelativeDocumentMoniker": "..\\DFS.CharacterForge\\CharacterForge.xaml",
               "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.CharacterForge\\CharacterForge.xaml",
               "RelativeToolTip": "..\\DFS.CharacterForge\\CharacterForge.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-27T00:24:09.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T00:24:09.242Z"
             }
           ]
         }
