@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DFS.DevLauncher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+060449891f706bc130b82c5c8f59bca40121e90d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f200fdd7e2906cdf4cb6b15cd4e7bf16555285d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("DFS.DevLauncher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DFS.DevLauncher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

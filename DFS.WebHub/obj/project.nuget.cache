@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "u4OvbgnPiMc=",
+  "dgSpecHash": "DRQvkJ8J5FQ=",
   "success": true,
   "projectFilePath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.WebHub\\DFS.WebHub.csproj",
   "expectedPackageFiles": [
@@ -28,10 +28,10 @@
     "C:\\Users\\metal\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\metal\\.nuget\\packages\\microsoft.jsinterop\\8.0.15\\microsoft.jsinterop.8.0.15.nupkg.sha512",
     "C:\\Users\\metal\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.15\\microsoft.jsinterop.webassembly.8.0.15.nupkg.sha512",
-    "C:\\Users\\metal\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.18\\microsoft.net.illink.tasks.8.0.18.nupkg.sha512",
-    "C:\\Users\\metal\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.7\\microsoft.net.sdk.webassembly.pack.9.0.7.nupkg.sha512",
+    "C:\\Users\\metal\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.22\\microsoft.net.illink.tasks.8.0.22.nupkg.sha512",
+    "C:\\Users\\metal\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.0\\microsoft.net.sdk.webassembly.pack.10.0.0.nupkg.sha512",
     "C:\\Users\\metal\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
-    "C:\\Users\\metal\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.18\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.18.nupkg.sha512"
+    "C:\\Users\\metal\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.22\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }

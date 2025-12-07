@@ -18,3 +18,5 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.CharacterForge\obj\Debug\net8.0-windows
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.CharacterForge\obj\Debug\net8.0-windows\DFS.CharacterForge.pdb
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.CharacterForge\obj\Debug\net8.0-windows\DFS.CharacterForge.genruntimeconfig.cache
 D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.CharacterForge\obj\Debug\net8.0-windows\ref\DFS.CharacterForge.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.CharacterForge\obj\Debug\net8.0-windows\Views\CharacterSheet.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\DFS.CharacterForge\obj\Debug\net8.0-windows\Views\CharacterSheet.g.cs
