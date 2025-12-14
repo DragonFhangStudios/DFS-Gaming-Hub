@@ -13,11 +13,15 @@ namespace CNCMachinistSim.Views
 		{
 			InitializeComponent();
 			_game = GameManager.Instance;
-			RefreshToolsList();
+			RefreshDisplay();
 		}
 
-		private void RefreshToolsList()
+		private void RefreshDisplay()
 		{
+			// Update money
+			MoneyDisplay.Text = $"${_game.CurrentPlayer.Money:F2}";
+
+			// Update tools list
 			ToolsList.ItemsSource = null;
 			ToolsList.ItemsSource = _game.CurrentPlayer.OwnedTools;
 		}
@@ -26,16 +30,44 @@ namespace CNCMachinistSim.Views
 		{
 			if (sender is Button btn && btn.Tag is Tool tool)
 			{
-				if (_game.CurrentPlayer.CanAfford(tool.ReplacementCost))
+				// Check if player can afford it
+				if (!_game.CurrentPlayer.CanAfford(tool.ReplacementCost))
 				{
-					_game.CurrentPlayer.Charge(tool.ReplacementCost);
-					tool.Condition = 100; // Reset to new
-					RefreshToolsList();
-					MessageBox.Show($"Tool replaced! -{tool.ReplacementCost:C}");
+					MessageBox.Show(
+						$"Not enough money!\n\nYou need ${tool.ReplacementCost:F2} but only have ${_game.CurrentPlayer.Money:F2}",
+						"Cannot Afford",
+						MessageBoxButton.OK,
+						MessageBoxImage.Warning
+					);
+					return;
 				}
-				else
+
+				// Confirm purchase (optional but nice UX)
+				var result = MessageBox.Show(
+					$"Replace {tool.Name}?\n\nCost: ${tool.ReplacementCost:F2}\nNew condition: 100%",
+					"Confirm Purchase",
+					MessageBoxButton.YesNo,
+					MessageBoxImage.Question
+				);
+
+				if (result == MessageBoxResult.Yes)
 				{
-					MessageBox.Show("Not enough money!", "Cannot Afford");
+					// Charge player
+					_game.CurrentPlayer.Charge(tool.ReplacementCost);
+
+					// Reset tool to brand new
+					tool.Condition = 100;
+
+					// Refresh display
+					RefreshDisplay();
+
+					// Show success message
+					MessageBox.Show(
+						$"{tool.Name} replaced!\n\nNew balance: ${_game.CurrentPlayer.Money:F2}",
+						"Tool Replaced",
+						MessageBoxButton.OK,
+						MessageBoxImage.Information
+					);
 				}
 			}
 		}

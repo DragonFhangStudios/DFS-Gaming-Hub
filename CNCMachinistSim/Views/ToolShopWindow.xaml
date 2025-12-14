@@ -1,31 +1,76 @@
 ﻿<Window x:Class="CNCMachinistSim.Views.ToolShopWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Tool Shop" Height="500" Width="400"
+        Title="Tool Shop" Height="550" Width="450"
         WindowStartupLocation="CenterScreen"
         Background="#ECF0F1">
 
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" 
-                   Text="TOOL SHOP" 
-                   FontSize="24" 
-                   FontWeight="Bold"
-                   Margin="0,0,0,20"/>
+        <!-- Header -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,20">
+            <TextBlock Text="TOOL SHOP" 
+                       FontSize="28" 
+                       FontWeight="Bold"/>
+            <TextBlock Text="Replace worn or broken tools" 
+                       FontSize="14" 
+                       Foreground="#7F8C8D"
+                       Margin="0,5,0,0"/>
+        </StackPanel>
 
-        <ListView Grid.Row="1" 
+        <!-- Money Display -->
+        <Border Grid.Row="1" 
+                Background="White" 
+                Padding="15" 
+                CornerRadius="5"
+                Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Available Money: " 
+                           FontSize="16" 
+                           VerticalAlignment="Center"/>
+                <TextBlock x:Name="MoneyDisplay" 
+                           Text="$500.00" 
+                           FontSize="18" 
+                           FontWeight="Bold"
+                           Foreground="#27AE60"
+                           VerticalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Tools List -->
+        <ListView Grid.Row="2" 
                   x:Name="ToolsList"
                   Background="White"
                   BorderThickness="1"
-                  BorderBrush="#BDC3C7">
+                  BorderBrush="#BDC3C7"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Border Padding="10" Margin="5" Background="#ECF0F1" CornerRadius="3">
+                    <Border Padding="15" 
+                Margin="5" 
+                CornerRadius="5">
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Setter Property="Background" Value="#ECF0F1"/>
+                                <Style.Triggers>
+                                    <!-- Highlight broken tools in red -->
+                                    <DataTrigger Binding="{Binding IsBroken}" Value="True">
+                                        <Setter Property="Background" Value="#FADBD8"/>
+                                    </DataTrigger>
+                                    <!-- Highlight worn tools in orange -->
+                                    <DataTrigger Binding="{Binding NeedsReplacement}" Value="True">
+                                        <Setter Property="Background" Value="#FCF3CF"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
@@ -33,24 +78,33 @@
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
 
+                            <!-- Tool Name -->
                             <TextBlock Grid.Row="0" 
-                                       Text="{Binding Name}" 
-                                       FontWeight="Bold" 
-                                       FontSize="14"/>
+                           Text="{Binding Name}" 
+                           FontWeight="Bold" 
+                           FontSize="15"
+                           Margin="0,0,0,5"/>
 
-                            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,5,0,5">
-                                <TextBlock Text="Condition: " FontSize="12"/>
-                                <TextBlock Text="{Binding Condition, StringFormat='{}{0}%'}" 
-                                           FontSize="12" 
-                                           FontWeight="Bold">
+                            <!-- Condition Display -->
+                            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
+                                <TextBlock Text="Condition: " 
+                               FontSize="13"
+                               Foreground="#7F8C8D"/>
+                                <TextBlock FontSize="13" 
+                               FontWeight="Bold">
                                     <TextBlock.Style>
                                         <Style TargetType="TextBlock">
+                                            <Setter Property="Text" Value="{Binding Condition, StringFormat='{}{0}%'}"/>
+                                            <Setter Property="Foreground" Value="#27AE60"/>
                                             <Style.Triggers>
-                                                <DataTrigger Binding="{Binding NeedsReplacement}" Value="True">
+                                                <!-- Broken = red -->
+                                                <DataTrigger Binding="{Binding IsBroken}" Value="True">
+                                                    <Setter Property="Text" Value="BROKEN"/>
                                                     <Setter Property="Foreground" Value="#E74C3C"/>
                                                 </DataTrigger>
-                                                <DataTrigger Binding="{Binding NeedsReplacement}" Value="False">
-                                                    <Setter Property="Foreground" Value="#27AE60"/>
+                                                <!-- Worn but not broken = orange -->
+                                                <DataTrigger Binding="{Binding NeedsReplacement}" Value="True">
+                                                    <Setter Property="Foreground" Value="#E67E22"/>
                                                 </DataTrigger>
                                             </Style.Triggers>
                                         </Style>
@@ -58,28 +112,46 @@
                                 </TextBlock>
                             </StackPanel>
 
+                            <!-- Replace Button -->
                             <Button Grid.Row="2" 
-                                    Content="{Binding ReplacementCost, StringFormat='Replace - ${0:F2}'}"
-                                    Click="ReplaceTool_Click"
-                                    Tag="{Binding}"
-                                    Background="#3498DB"
-                                    Foreground="White"
-                                    BorderThickness="0"
-                                    Padding="10,5"/>
+                        Content="{Binding ReplacementCost, StringFormat='Replace Tool - ${0:F2}'}"
+                        Click="ReplaceTool_Click"
+                        Tag="{Binding}"
+                        Padding="12,8"
+                        FontSize="13"
+                        FontWeight="Bold"
+                        BorderThickness="0"
+                        Cursor="Hand">
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Background" Value="#3498DB"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                        <Style.Triggers>
+                                            <!-- Urgent red button for broken tools -->
+                                            <DataTrigger Binding="{Binding IsBroken}" Value="True">
+                                                <Setter Property="Background" Value="#E74C3C"/>
+                                                <Setter Property="Content" Value="{Binding ReplacementCost, StringFormat='⚠ REPLACE NOW - ${0:F2}'}"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
                         </Grid>
                     </Border>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-        <Button Grid.Row="2" 
-                Content="Close" 
+        <!-- Close Button -->
+        <Button Grid.Row="3" 
+                Content="Close Shop" 
                 Click="Close_Click"
                 Margin="0,15,0,0"
-                Padding="15,10"
+                Padding="15,12"
                 Background="#95A5A6"
                 Foreground="White"
                 BorderThickness="0"
+                FontSize="15"
                 FontWeight="Bold"/>
     </Grid>
 </Window>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CNCMachinistSim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86c02cbc1b3418c712fd7b0321e4f1be5e7c4a3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be223ab71f9e5b91cf9c84f9e20ee2653c58d549")]
 [assembly: System.Reflection.AssemblyProductAttribute("CNCMachinistSim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CNCMachinistSim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

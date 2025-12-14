@@ -12,6 +12,8 @@ namespace CNCMachinistSim.Services
 		public Player CurrentPlayer { get; private set; }
 		public List<WorkOrder> AvailableJobs { get; private set; }
 		public WorkOrder ActiveJob { get; private set; }
+		public WorkOrder FailedJob { get; private set; } // Track the job that failed
+		public int CurrentRetryCount { get; private set; } // How many times we've retried THIS job
 
 		private int _nextJobNumber = 1;
 		public bool IsJobRunning { get; private set; }
@@ -21,6 +23,9 @@ namespace CNCMachinistSim.Services
 		public bool CanUnlockSpacers => CurrentPlayer.JobsCompleted >= 10;
 		public bool CanUnlockFittings => CurrentPlayer.JobsCompleted >= 15;
 		public bool CanUnlockBrackets => CurrentPlayer.JobsCompleted >= 20;
+		public bool LastJobSuccess { get; private set; }
+		private int _lastRentJob = 0;
+		private int _lastMaintenanceJob = 0;
 
 		private GameManager()
 		{
@@ -32,10 +37,12 @@ namespace CNCMachinistSim.Services
 			CurrentPlayer = new Player();
 			ActiveJob = null;
 			_nextJobNumber = 1;
+			_lastRentJob = 0;           // RESET
+			_lastMaintenanceJob = 0;    // RESET
 			GenerateWorkOrders();
 		}
 
-		private void GenerateWorkOrders()
+		public void GenerateWorkOrders()
 		{
 			AvailableJobs.Clear();
 
@@ -70,28 +77,9 @@ namespace CNCMachinistSim.Services
 			CurrentPlayer.Charge(job.MaterialCost);
 
 			// Generate new job to replace it
-			AvailableJobs.Add(WorkOrder.CreatePin(_nextJobNumber++));
+			GenerateWorkOrders(); // This refreshes the list with current unlock status
 		}
 
-		public void CompleteJob(bool success)
-		{
-			if (ActiveJob == null) return;
-
-			if (success)
-			{
-				// Full payment
-				CurrentPlayer.Pay(ActiveJob.BasePay);
-				CurrentPlayer.JobsCompleted++;
-			}
-			else
-			{
-				// Scrap value (50% of payment)
-				CurrentPlayer.Pay(ActiveJob.BasePay * 0.5m);
-				CurrentPlayer.JobsFailed++;
-			}
-
-			ActiveJob = null;
-		}
 		public async Task StartJobAsync(string strategyName)
 		{
 			if (ActiveJob == null) return;
@@ -154,6 +142,12 @@ namespace CNCMachinistSim.Services
 			{
 				tool.ApplyWear(CurrentStrategy.ToolWearPercent / 10); // Convert percent to multiplier
 			}
+			// Apply tool wear (DOUBLE for retry)
+			int wearMultiplier = CurrentStrategy.Name == "ConservativeRetry" ? 2 : 1;
+			foreach (var tool in usedTools)
+			{
+				tool.ApplyWear((CurrentStrategy.ToolWearPercent / 10) * wearMultiplier);
+			}
 
 			// Complete the job
 			decimal finalPay = ActiveJob.BasePay * (decimal)CurrentStrategy.PayMultiplier;
@@ -164,36 +158,76 @@ namespace CNCMachinistSim.Services
 		{
 			if (ActiveJob == null) return;
 
+			LastJobSuccess = success; // TRACK THIS
+
 			if (success)
 			{
+				// Full payment
 				CurrentPlayer.Pay(finalPay);
 				CurrentPlayer.JobsCompleted++;
+
+				// Clear failed job state
+				FailedJob = null;
+				CurrentRetryCount = 0;
 			}
 			else
 			{
-				// Scrap value (50% of base pay, no bonus)
-				CurrentPlayer.Pay(ActiveJob.BasePay * 0.5m);
+				// Failed - scrap value
+				decimal scrapValue = ActiveJob.MaterialCost * 0.5m;
+				CurrentPlayer.Pay(scrapValue);
 				CurrentPlayer.JobsFailed++;
-			}
 
+				// Store failed job for retry option
+				FailedJob = ActiveJob;
+				CurrentRetryCount++;
+			}
 			ActiveJob = null;
-			CheckRecurringExpenses();
 		}
-		public void CheckRecurringExpenses()
+		public void RetryJob()
 		{
+			if (FailedJob == null) return;
+
+			// Set the failed job as active again
+			ActiveJob = FailedJob;
+
+			// Charge DOUBLE material cost (buying new stock + wasted material)
+			CurrentPlayer.Charge(FailedJob.MaterialCost * 2);
+
+			// Don't clear FailedJob yet - wait until success or another failure
+		}
+
+		public void DeclineRetry()
+		{
+			// Player chose to take the loss
+			FailedJob = null;
+			CurrentRetryCount = 0;
+
+			// Generate new jobs to replace it
+			GenerateWorkOrders();
+		}
+
+		public List<string> CheckRecurringExpenses()
+		{
+			var expenses = new List<string>();
+			int completed = CurrentPlayer.JobsCompleted;
+
 			// Rent every 5 jobs
-			if (CurrentPlayer.JobsCompleted % 5 == 0 && CurrentPlayer.JobsCompleted > 0)
+			if (completed > 0 && completed % 5 == 0 && _lastRentJob != completed)
 			{
 				CurrentPlayer.Charge(25m);
-				// Show notification in UI
+				expenses.Add("📋 Shop rent: -$25.00");
+				_lastRentJob = completed;
 			}
 
 			// Machine maintenance every 10 jobs
-			if (CurrentPlayer.JobsCompleted % 10 == 0 && CurrentPlayer.JobsCompleted > 0)
+			if (completed > 0 && completed % 10 == 0 && _lastMaintenanceJob != completed)
 			{
 				CurrentPlayer.Charge(50m);
-				// Show notification in UI
+				expenses.Add("🔧 Machine maintenance: -$50.00");
+				_lastMaintenanceJob = completed;
 			}
+
+			return expenses;
 		}
 	}
 	public class JobStrategy
@@ -241,5 +275,13 @@ namespace CNCMachinistSim.Services
 				_ => Normal
 			};
 		}
+		public static JobStrategy ConservativeRetry => new JobStrategy
+		{
+			Name = "ConservativeRetry",
+			TimeMultiplier = 1.5,
+			SuccessRate = 95,
+			PayMultiplier = 1.0,
+			ToolWearPercent = 10  // DOUBLE the normal 5% conservative wear
+		};
 	}
 }

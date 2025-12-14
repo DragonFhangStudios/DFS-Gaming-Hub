@@ -42,3 +42,5 @@ D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Vi
 D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\JobSetupWindow.g.cs
 D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\ToolShopWindow.baml
 D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\ToolShopWindow.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\RetryJobDialog.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\RetryJobDialog.g.cs
