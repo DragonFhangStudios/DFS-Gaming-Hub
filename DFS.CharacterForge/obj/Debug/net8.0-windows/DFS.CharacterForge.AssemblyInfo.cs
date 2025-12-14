@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DFS.CharacterForge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2eb032526f4db754c2d986eeedd2b519cf4e946c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7aab6dc3d4643a4e2fcd4c630c4f6207d5a731ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("DFS.CharacterForge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DFS.CharacterForge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
