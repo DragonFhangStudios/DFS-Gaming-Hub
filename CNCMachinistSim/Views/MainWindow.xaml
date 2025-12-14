@@ -1,0 +1,242 @@
+﻿<Window x:Class="CNCMachinistSim.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CNC Machinist Simulator" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <!-- Top Bar -->
+            <RowDefinition Height="*"/>
+            <!-- Main Content -->
+        </Grid.RowDefinitions>
+
+        <!-- TOP BAR -->
+        <Border Grid.Row="0" Background="#2C3E50" Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" 
+                           Text="CNC MACHINIST SIMULATOR" 
+                           FontSize="24" 
+                           FontWeight="Bold"
+                           Foreground="White"
+                           VerticalAlignment="Center"/>
+
+                <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="0,0,20,0">
+                    <TextBlock Text="Day:" FontSize="16" Foreground="White" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                    <TextBlock x:Name="DayText" Text="1" FontSize="16" FontWeight="Bold" Foreground="#3498DB" VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2" Orientation="Horizontal">
+                    <TextBlock Text="💰 $" FontSize="20" Foreground="#F39C12" VerticalAlignment="Center"/>
+                    <TextBlock x:Name="MoneyText" Text="500.00" FontSize="20" FontWeight="Bold" Foreground="#F39C12" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- MAIN CONTENT -->
+        <Grid Grid.Row="1" Background="#ECF0F1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <!-- Left Panel: Work Orders -->
+                <ColumnDefinition Width="*"/>
+                <!-- Center Panel: Active Job -->
+                <ColumnDefinition Width="200"/>
+                <!-- Right Panel: Inventory -->
+            </Grid.ColumnDefinitions>
+
+            <!-- LEFT PANEL: WORK ORDERS -->
+            <Border Grid.Column="0" Background="White" Margin="10" CornerRadius="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" 
+                               Text="AVAILABLE JOBS" 
+                               FontSize="16" 
+                               FontWeight="Bold"
+                               Padding="10"
+                               Background="#34495E"
+                               Foreground="White"/>
+
+                    <ListView Grid.Row="1" 
+                              x:Name="JobListView"
+                              Background="Transparent"
+                              BorderThickness="0"
+                              Margin="5">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Border Background="#ECF0F1" 
+                Padding="10" 
+                Margin="5"
+                CornerRadius="3">
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding PartType}" FontWeight="Bold" FontSize="14"/>
+                                        <TextBlock Text="{Binding BasePay, StringFormat='Pay: ${0:F2}'}" Foreground="#27AE60" FontSize="12"/>
+                                        <TextBlock Text="{Binding MaterialCost, StringFormat='Material: ${0:F2}'}" Foreground="#E74C3C" FontSize="10"/>
+
+                                        <!-- Accept button - only shown if unlocked -->
+                                        <Button Content="Accept Job" 
+                        Margin="0,5,0,0"
+                        Click="AcceptJob_Click"
+                        Tag="{Binding}"
+                        Visibility="{Binding IsUnlocked, Converter={StaticResource BoolToVisibilityConverter}}"/>
+
+                                        <!-- Locked message - only shown if locked -->
+                                        <TextBlock Text="{Binding UnlockMessage}"
+                           Foreground="#95A5A6"
+                           FontSize="11"
+                           FontStyle="Italic"
+                           Margin="0,5,0,0"
+                           Visibility="{Binding IsLocked, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Grid>
+            </Border>
+
+            <!-- CENTER PANEL: ACTIVE JOB -->
+            <Border Grid.Column="1" Background="White" Margin="10" CornerRadius="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0"
+                   Text="ACTIVE JOB"
+                   FontSize="16"
+                   FontWeight="Bold"
+                   Padding="10"
+                   Background="#34495E"
+                   Foreground="White"/>
+
+                    <!-- NO ACTIVE JOB STATE -->
+                    <StackPanel Grid.Row="1" 
+                    x:Name="NoJobPanel"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+                        <TextBlock Text="No active job" 
+                       FontSize="18" 
+                       Foreground="#95A5A6"
+                       HorizontalAlignment="Center"/>
+                        <Button Content="New Game" 
+                    Click="NewGame_Click"
+                    Padding="20,10"
+                    Margin="0,20,0,0"
+                    FontSize="16"
+                    FontWeight="Bold"/>
+                    </StackPanel>
+
+                    <!-- JOB RUNNING STATE -->
+                    <StackPanel Grid.Row="1"
+                    x:Name="JobRunningPanel"
+                    VerticalAlignment="Center"
+                    Margin="20"
+                    Visibility="Collapsed">
+                        <TextBlock x:Name="ActiveJobTitle" 
+                       Text="Aluminum Pin" 
+                       FontSize="20" 
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"/>
+
+                        <TextBlock x:Name="ActiveJobStrategy" 
+                       Text="Strategy: Normal" 
+                       FontSize="14" 
+                       Foreground="#7F8C8D"
+                       HorizontalAlignment="Center"
+                       Margin="0,5,0,0"/>
+
+                        <ProgressBar x:Name="JobProgressBar"
+                         Height="30"
+                         Margin="0,20,0,10"
+                         Minimum="0"
+                         Maximum="100"
+                         Value="0"/>
+
+                        <TextBlock x:Name="JobProgressText" 
+                       Text="0%" 
+                       FontSize="16" 
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Foreground="#3498DB"/>
+
+                        <TextBlock Text="Machine running..." 
+                       FontSize="12" 
+                       Foreground="#95A5A6"
+                       HorizontalAlignment="Center"
+                       Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!-- RIGHT PANEL: INVENTORY -->
+            <Border Grid.Column="2" Background="White" Margin="10" CornerRadius="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0"
+                               Text="TOOLS"
+                               FontSize="16"
+                               FontWeight="Bold"
+                               Padding="10"
+                               Background="#34495E"
+                               Foreground="White"/>
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="TOOLS"
+                               FontSize="16"
+                               FontWeight="Bold"
+                               Padding="10"
+                               Background="#34495E"
+                               Foreground="White"
+                               VerticalAlignment="Center"/>
+                        <Button Content="🛒 Shop"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"
+                               Margin="0,0,10,0"
+                               Padding="8,4"
+                               Background="#3498DB"
+                               Foreground="White"
+                               BorderThickness="0"
+                               FontSize="11"
+                               Click="OpenToolShop_Click"/>
+                    </Grid>
+
+                    <ListView Grid.Row="1"
+                              x:Name="ToolListView"
+                              Background="Transparent"
+                              BorderThickness="0"
+                              Margin="5">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Border Padding="5" Margin="2">
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding Name}" FontSize="11" FontWeight="Bold"/>
+                                        <TextBlock Text="{Binding Condition, StringFormat='{}{0}%'}" FontSize="10"/>
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

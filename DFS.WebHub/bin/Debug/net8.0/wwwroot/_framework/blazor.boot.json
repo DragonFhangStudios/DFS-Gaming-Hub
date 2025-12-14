@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DFS.WebHub",
   "resources": {
-    "hash": "sha256-Eoz4qdLX6C3ymAtoctSAQjbUn9T7zgoyEHq/FcnyLaU=",
+    "hash": "sha256-QzVramWNTeLN2G2LHabK6mK1RpKBrWMrGnL3YCerl/g=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-vtotCeXt2UD6oc459laJT32vBgigZ+eLoUmdeFkvYDk="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-K9gNrsN9UmPqLs6J/FrkiKpmkVGnHjjqUsc7YGvesCY=",
       "netstandard.wasm": "sha256-4emjlXLM9qW3t2tlII20SDylBgG4ueI0wy9nh5FMd8g=",
       "System.Private.CoreLib.wasm": "sha256-2DN4v7I/tabltDEPdIO8sDBB0tY8zOm+0CvHbMssXW4=",
-      "DFS.WebHub.wasm": "sha256-RXFbue6o0HUkXd8qZTA3WjgMX9fMBX5h+HARuy2PriA="
+      "DFS.WebHub.wasm": "sha256-2M83myeD7YrV61XA8JxA9yjQKfXxZbth809wBK4HYiI="
     },
     "pdb": {
-      "DFS.WebHub.pdb": "sha256-VgGThoQYksZp0dzGb3h8vuaJ6lxftyHHhVY+VkTOXZg="
+      "DFS.WebHub.pdb": "sha256-nhQ5gPeGqEJOMWeF1lo1+AKgN41bnLqXZaVNP+pYvMM="
     }
   },
   "cacheBootResources": true,

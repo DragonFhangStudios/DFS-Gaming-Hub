@@ -18,3 +18,27 @@ E:\!Dragon Fhang Studio stuff\!C# Programs\CNCMachinistSim\CNCMachinistSim\CNCMa
 E:\!Dragon Fhang Studio stuff\!C# Programs\CNCMachinistSim\CNCMachinistSim\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.pdb
 E:\!Dragon Fhang Studio stuff\!C# Programs\CNCMachinistSim\CNCMachinistSim\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.genruntimeconfig.cache
 E:\!Dragon Fhang Studio stuff\!C# Programs\CNCMachinistSim\CNCMachinistSim\CNCMachinistSim\obj\Debug\net8.0-windows\ref\CNCMachinistSim.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\bin\Debug\net8.0-windows\CNCMachinistSim.exe
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\bin\Debug\net8.0-windows\CNCMachinistSim.deps.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\bin\Debug\net8.0-windows\CNCMachinistSim.runtimeconfig.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\bin\Debug\net8.0-windows\CNCMachinistSim.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\bin\Debug\net8.0-windows\CNCMachinistSim.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\MainWindow.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\App.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim_MarkupCompile.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.g.resources
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.GeneratedMSBuildEditorConfig.editorconfig
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.AssemblyInfoInputs.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.AssemblyInfo.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.csproj.CoreCompileInputs.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.sourcelink.json
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\refint\CNCMachinistSim.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.pdb
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\CNCMachinistSim.genruntimeconfig.cache
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\ref\CNCMachinistSim.dll
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\JobSetupWindow.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\JobSetupWindow.g.cs
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\ToolShopWindow.baml
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\Views\ToolShopWindow.g.cs

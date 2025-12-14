@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\!Dragon Fhang Studio stuff\!C# Programs\CNCMachinistSim\CNCMachinistSim\CNCMachinistSim\obj\Debug\net8.0-windows\
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\obj\Debug\net8.0-windows\
 CNCMachinistSim
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-E:\!Dragon Fhang Studio stuff\!C# Programs\CNCMachinistSim\CNCMachinistSim\CNCMachinistSim\App.xaml
-11407045341
+D:\DragonFhangStudios\DFS-Gaming-Hub\CNCMachinistSim\App.xaml
+31601409259
 
-7-812261261
+101387319390
 198338916705
-MainWindow.xaml;
+Views\JobSetupWindow.xaml;Views\MainWindow.xaml;Views\ToolShopWindow.xaml;
 
 False
 

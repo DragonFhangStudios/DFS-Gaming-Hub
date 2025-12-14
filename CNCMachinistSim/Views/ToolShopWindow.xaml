@@ -1,0 +1,85 @@
+﻿<Window x:Class="CNCMachinistSim.Views.ToolShopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tool Shop" Height="500" Width="400"
+        WindowStartupLocation="CenterScreen"
+        Background="#ECF0F1">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" 
+                   Text="TOOL SHOP" 
+                   FontSize="24" 
+                   FontWeight="Bold"
+                   Margin="0,0,0,20"/>
+
+        <ListView Grid.Row="1" 
+                  x:Name="ToolsList"
+                  Background="White"
+                  BorderThickness="1"
+                  BorderBrush="#BDC3C7">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border Padding="10" Margin="5" Background="#ECF0F1" CornerRadius="3">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock Grid.Row="0" 
+                                       Text="{Binding Name}" 
+                                       FontWeight="Bold" 
+                                       FontSize="14"/>
+
+                            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,5,0,5">
+                                <TextBlock Text="Condition: " FontSize="12"/>
+                                <TextBlock Text="{Binding Condition, StringFormat='{}{0}%'}" 
+                                           FontSize="12" 
+                                           FontWeight="Bold">
+                                    <TextBlock.Style>
+                                        <Style TargetType="TextBlock">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding NeedsReplacement}" Value="True">
+                                                    <Setter Property="Foreground" Value="#E74C3C"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding NeedsReplacement}" Value="False">
+                                                    <Setter Property="Foreground" Value="#27AE60"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
+                                </TextBlock>
+                            </StackPanel>
+
+                            <Button Grid.Row="2" 
+                                    Content="{Binding ReplacementCost, StringFormat='Replace - ${0:F2}'}"
+                                    Click="ReplaceTool_Click"
+                                    Tag="{Binding}"
+                                    Background="#3498DB"
+                                    Foreground="White"
+                                    BorderThickness="0"
+                                    Padding="10,5"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Grid.Row="2" 
+                Content="Close" 
+                Click="Close_Click"
+                Margin="0,15,0,0"
+                Padding="15,10"
+                Background="#95A5A6"
+                Foreground="White"
+                BorderThickness="0"
+                FontWeight="Bold"/>
+    </Grid>
+</Window>
