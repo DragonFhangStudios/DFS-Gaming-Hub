@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DFS.UnityConnector")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc0c5428be7ea8bf18f186fc9bb86548c659499d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2eb032526f4db754c2d986eeedd2b519cf4e946c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DFS.UnityConnector")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DFS.UnityConnector")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
