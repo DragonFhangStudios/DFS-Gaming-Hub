@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DFS.Core\DFS.Core.csproj" />
+    <ProjectReference Include="..\DFS.JobSystem\DFS.JobSystem.csproj" />
     <ProjectReference Include="..\DFS.PuzzleFramework\DFS.PuzzleFramework.csproj" />
   </ItemGroup>
 
