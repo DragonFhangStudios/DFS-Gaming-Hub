@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DFS.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38eea8a341c49d4778eb20005c85fd1677be2102")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+044fab2472064b214a58b9823416cf45d6674a57")]
 [assembly: System.Reflection.AssemblyProductAttribute("DFS.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DFS.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
