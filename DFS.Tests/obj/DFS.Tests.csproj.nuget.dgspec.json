@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Tests\\DFS.Tests.csproj": {}
+    "/app/DFS.Tests/DFS.Tests.csproj": {}
   },
   "projects": {
-    "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj": {
+    "/app/DFS.Core/DFS.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj",
+        "projectUniqueName": "/app/DFS.Core/DFS.Core.csproj",
         "projectName": "DFS.Core",
-        "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj",
-        "packagesPath": "C:\\Users\\metal\\.nuget\\packages\\",
-        "outputPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\obj\\",
+        "projectPath": "/app/DFS.Core/DFS.Core.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/DFS.Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\metal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/jules/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,41 +60,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.PuzzleFramework\\DFS.PuzzleFramework.csproj": {
+    "/app/DFS.PuzzleFramework/DFS.PuzzleFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.PuzzleFramework\\DFS.PuzzleFramework.csproj",
+        "projectUniqueName": "/app/DFS.PuzzleFramework/DFS.PuzzleFramework.csproj",
         "projectName": "DFS.PuzzleFramework",
-        "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.PuzzleFramework\\DFS.PuzzleFramework.csproj",
-        "packagesPath": "C:\\Users\\metal\\.nuget\\packages\\",
-        "outputPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.PuzzleFramework\\obj\\",
+        "projectPath": "/app/DFS.PuzzleFramework/DFS.PuzzleFramework.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/DFS.PuzzleFramework/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\metal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/jules/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj": {
-                "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj"
+              "/app/DFS.Core/DFS.Core.csproj": {
+                "projectPath": "/app/DFS.Core/DFS.Core.csproj"
               }
             }
           }
@@ -136,44 +124,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Tests\\DFS.Tests.csproj": {
+    "/app/DFS.Tests/DFS.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Tests\\DFS.Tests.csproj",
+        "projectUniqueName": "/app/DFS.Tests/DFS.Tests.csproj",
         "projectName": "DFS.Tests",
-        "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Tests\\DFS.Tests.csproj",
-        "packagesPath": "C:\\Users\\metal\\.nuget\\packages\\",
-        "outputPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Tests\\obj\\",
+        "projectPath": "/app/DFS.Tests/DFS.Tests.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/DFS.Tests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\metal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/jules/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj": {
-                "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj"
+              "/app/DFS.Core/DFS.Core.csproj": {
+                "projectPath": "/app/DFS.Core/DFS.Core.csproj"
               },
-              "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.PuzzleFramework\\DFS.PuzzleFramework.csproj": {
-                "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.PuzzleFramework\\DFS.PuzzleFramework.csproj"
+              "/app/DFS.PuzzleFramework/DFS.PuzzleFramework.csproj": {
+                "projectPath": "/app/DFS.PuzzleFramework/DFS.PuzzleFramework.csproj"
               }
             }
           }
@@ -227,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

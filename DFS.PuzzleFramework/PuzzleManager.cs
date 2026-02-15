@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Threading;
 using DFS.Core;
 using DFS.Core.Enums;
 
@@ -9,6 +10,9 @@ namespace DFS.PuzzleFramework
 {
 	public class PuzzleManager
 	{
+		private static int _seed = Environment.TickCount;
+		private static readonly ThreadLocal<Random> _random = new ThreadLocal<Random>(() => new Random(Interlocked.Increment(ref _seed)));
+
 		public MatchTile[,] Board { get; private set; }
 		public int Rows { get; }
 		public int Columns { get; }
@@ -23,7 +27,7 @@ namespace DFS.PuzzleFramework
 
 		private void GenerateRandomBoard()
 		{
-			var rand = new Random();
+			var rand = _random.Value;
 			var colors = Enum.GetValues(typeof(TileType));
 
 			for (int r = 0; r < Rows; r++)
