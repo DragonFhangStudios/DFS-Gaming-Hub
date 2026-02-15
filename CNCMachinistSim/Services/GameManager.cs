@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using CNCMachinistSim.Models;
 
 namespace CNCMachinistSim.Services
@@ -134,8 +135,7 @@ namespace CNCMachinistSim.Services
 			}
 
 			// Roll the dice
-			Random rng = new Random();
-			bool success = rng.Next(0, 100) < baseSuccess;
+			bool success = RandomNumberGenerator.GetInt32(0, 100) < baseSuccess;
 
 			// Apply tool wear
 			foreach (var tool in usedTools)

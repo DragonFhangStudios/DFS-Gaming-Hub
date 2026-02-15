@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -52,9 +53,8 @@ namespace DFS.CharacterForge
 				return;
 			}
 
-			var rng = new Random();
-			CursedItemBox.Text = CursedItems[rng.Next(CursedItems.Length)];
-			SecretBox.Text = Secrets[rng.Next(Secrets.Length)];
+			CursedItemBox.Text = CursedItems[RandomNumberGenerator.GetInt32(CursedItems.Length)];
+			SecretBox.Text = Secrets[RandomNumberGenerator.GetInt32(Secrets.Length)];
 
 			// Optional: Append to log
 			BackstoryBox.AppendText($"Cursed Item: {CursedItemBox.Text}\n");
