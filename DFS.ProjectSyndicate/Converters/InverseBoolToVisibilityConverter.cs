@@ -14,7 +14,7 @@ namespace DFS.ProjectSyndicate.Converters
 
 		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
 		{
-			throw new NotImplementedException();
+			return value is Visibility visibility && visibility != Visibility.Visible;
 		}
 	}
 }
