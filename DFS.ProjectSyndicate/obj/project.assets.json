@@ -279,36 +279,43 @@
     ]
   },
   "packageFolders": {
-    "/home/jules/.nuget/packages/": {}
+    "C:\\Users\\metal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/app/DFS.ProjectSyndicate/DFS.ProjectSyndicate.csproj",
+      "projectUniqueName": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.ProjectSyndicate\\DFS.ProjectSyndicate.csproj",
       "projectName": "DFS.ProjectSyndicate",
-      "projectPath": "/app/DFS.ProjectSyndicate/DFS.ProjectSyndicate.csproj",
-      "packagesPath": "/home/jules/.nuget/packages/",
-      "outputPath": "/app/DFS.ProjectSyndicate/obj/",
+      "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.ProjectSyndicate\\DFS.ProjectSyndicate.csproj",
+      "packagesPath": "C:\\Users\\metal\\.nuget\\packages\\",
+      "outputPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.ProjectSyndicate\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/jules/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\metal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "/app/DFS.Core/DFS.Core.csproj": {
-              "projectPath": "/app/DFS.Core/DFS.Core.csproj"
+            "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj": {
+              "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj"
             },
-            "/app/DFS.JobSystem/DFS.JobSystem.csproj": {
-              "projectPath": "/app/DFS.JobSystem/DFS.JobSystem.csproj"
+            "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.JobSystem\\DFS.JobSystem.csproj": {
+              "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.JobSystem\\DFS.JobSystem.csproj"
             }
           }
         }
@@ -339,16 +346,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[8.0.22, 8.0.22]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -357,7 +354,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

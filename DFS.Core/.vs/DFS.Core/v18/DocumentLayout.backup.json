@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,8 +66,7 @@
               "RelativeToolTip": "..\\CNCMachinistSim\\Views\\RetryJobDialog.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAwwCsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T19:12:52.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T19:12:52.503Z"
             },
             {
               "$type": "Document",
@@ -78,8 +77,7 @@
               "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\CNCMachinistSim\\Views\\RetryJobDialog.xaml",
               "RelativeToolTip": "..\\CNCMachinistSim\\Views\\RetryJobDialog.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-14T19:12:37.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T19:12:37.966Z"
             },
             {
               "$type": "Document",
@@ -91,8 +89,7 @@
               "RelativeToolTip": "..\\CNCMachinistSim\\Models\\Tool.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T18:08:20.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T18:08:20.24Z"
             },
             {
               "$type": "Document",
@@ -104,8 +101,7 @@
               "RelativeToolTip": "..\\CNCMachinistSim\\Models\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T18:08:16.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T18:08:16.733Z"
             },
             {
               "$type": "Document",
@@ -129,8 +125,7 @@
               "RelativeToolTip": "..\\CNCMachinistSim\\Services\\GameManager.cs",
               "ViewState": "AgIAAIMAAAAAAAAAAAAowJUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:30:52.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T15:30:52.062Z"
             },
             {
               "$type": "Document",
@@ -142,8 +137,7 @@
               "RelativeToolTip": "..\\CNCMachinistSim\\Models\\WorkOrder.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T16:28:43.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T16:28:43.177Z"
             },
             {
               "$type": "Document",
@@ -154,8 +148,7 @@
               "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\CNCMachinistSim\\Views\\JobSetupWindow.xaml",
               "RelativeToolTip": "..\\CNCMachinistSim\\Views\\JobSetupWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-14T15:50:33.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T15:50:33.535Z"
             },
             {
               "$type": "Document",
@@ -167,8 +160,7 @@
               "RelativeToolTip": "..\\CNCMachinistSim\\Views\\MainWindow.xaml.cs",
               "ViewState": "AgIAANYAAAAAAAAAAAA9wNsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:32:35.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T15:32:35.903Z"
             },
             {
               "$type": "Document",
@@ -192,8 +184,7 @@
               "RelativeToolTip": "..\\CNCMachinistSim\\Views\\ToolShopWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T16:12:40.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T16:12:40.031Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "ToolTip": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\CNCMachinistSim\\Views\\ToolShopWindow.xaml",
               "RelativeToolTip": "..\\CNCMachinistSim\\Views\\ToolShopWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-14T16:12:25.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T16:12:25.776Z"
             }
           ]
         }

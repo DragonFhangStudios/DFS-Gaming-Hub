@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "YE7iJ5tqEKU=",
+  "dgSpecHash": "KTy4rSmj33c=",
   "success": true,
-  "projectFilePath": "/app/DFS.ProjectSyndicate/DFS.ProjectSyndicate.csproj",
+  "projectFilePath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.ProjectSyndicate\\DFS.ProjectSyndicate.csproj",
   "expectedPackageFiles": [
-    "/home/jules/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
-    "/home/jules/.nuget/packages/system.io.pipelines/9.0.4/system.io.pipelines.9.0.4.nupkg.sha512",
-    "/home/jules/.nuget/packages/system.text.encodings.web/9.0.4/system.text.encodings.web.9.0.4.nupkg.sha512",
-    "/home/jules/.nuget/packages/system.text.json/9.0.4/system.text.json.9.0.4.nupkg.sha512",
-    "/home/jules/.nuget/packages/microsoft.windowsdesktop.app.ref/8.0.22/microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
-    "/home/jules/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.22/microsoft.netcore.app.host.linux-x64.8.0.22.nupkg.sha512"
+    "C:\\Users\\metal\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\metal\\.nuget\\packages\\system.io.pipelines\\9.0.4\\system.io.pipelines.9.0.4.nupkg.sha512",
+    "C:\\Users\\metal\\.nuget\\packages\\system.text.encodings.web\\9.0.4\\system.text.encodings.web.9.0.4.nupkg.sha512",
+    "C:\\Users\\metal\\.nuget\\packages\\system.text.json\\9.0.4\\system.text.json.9.0.4.nupkg.sha512"
   ],
   "logs": []
 }

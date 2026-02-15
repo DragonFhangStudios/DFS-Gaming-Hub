@@ -8,25 +8,32 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "/home/jules/.nuget/packages/": {}
+    "C:\\Users\\metal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/app/DFS.Core/DFS.Core.csproj",
+      "projectUniqueName": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj",
       "projectName": "DFS.Core",
-      "projectPath": "/app/DFS.Core/DFS.Core.csproj",
-      "packagesPath": "/home/jules/.nuget/packages/",
-      "outputPath": "/app/DFS.Core/obj/",
+      "projectPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\DFS.Core.csproj",
+      "packagesPath": "C:\\Users\\metal\\.nuget\\packages\\",
+      "outputPath": "D:\\DragonFhangStudios\\DFS-Gaming-Hub\\DFS.Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/jules/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\metal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
