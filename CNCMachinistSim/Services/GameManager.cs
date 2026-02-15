@@ -15,14 +15,24 @@ namespace CNCMachinistSim.Services
 		public WorkOrder FailedJob { get; private set; } // Track the job that failed
 		public int CurrentRetryCount { get; private set; } // How many times we've retried THIS job
 
+		private const int RentJobInterval = 5;
+		private const decimal RentAmount = 25m;
+		private const int MaintenanceJobInterval = 10;
+		private const decimal MaintenanceAmount = 50m;
+
+		private const int BushingUnlockThreshold = 5;
+		private const int SpacerUnlockThreshold = 10;
+		private const int FittingUnlockThreshold = 15;
+		private const int BracketUnlockThreshold = 20;
+
 		private int _nextJobNumber = 1;
 		public bool IsJobRunning { get; private set; }
 		public int JobProgress { get; private set; }  // 0-100%
 		public JobStrategy CurrentStrategy { get; private set; }
-		public bool CanUnlockBushings => CurrentPlayer.JobsCompleted >= 5;
-		public bool CanUnlockSpacers => CurrentPlayer.JobsCompleted >= 10;
-		public bool CanUnlockFittings => CurrentPlayer.JobsCompleted >= 15;
-		public bool CanUnlockBrackets => CurrentPlayer.JobsCompleted >= 20;
+		public bool CanUnlockBushings => CurrentPlayer.JobsCompleted >= BushingUnlockThreshold;
+		public bool CanUnlockSpacers => CurrentPlayer.JobsCompleted >= SpacerUnlockThreshold;
+		public bool CanUnlockFittings => CurrentPlayer.JobsCompleted >= FittingUnlockThreshold;
+		public bool CanUnlockBrackets => CurrentPlayer.JobsCompleted >= BracketUnlockThreshold;
 		public bool LastJobSuccess { get; private set; }
 		private int _lastRentJob = 0;
 		private int _lastMaintenanceJob = 0;
@@ -53,17 +63,17 @@ namespace CNCMachinistSim.Services
 			// Always offer at least one Pin (unlocked)
 			AvailableJobs.Add(WorkOrder.CreatePin(_nextJobNumber++));
 
-			// Show Bushing (unlocked if 5+ jobs completed)
-			AvailableJobs.Add(WorkOrder.CreateBushing(_nextJobNumber++, completed >= 5));
+			// Show Bushing (unlocked if threshold reached)
+			AvailableJobs.Add(WorkOrder.CreateBushing(_nextJobNumber++, completed >= BushingUnlockThreshold));
 
-			// Show Spacer (unlocked if 10+ jobs completed)
-			AvailableJobs.Add(WorkOrder.CreateSpacer(_nextJobNumber++, completed >= 10));
+			// Show Spacer (unlocked if threshold reached)
+			AvailableJobs.Add(WorkOrder.CreateSpacer(_nextJobNumber++, completed >= SpacerUnlockThreshold));
 
-			// Show Fitting (unlocked if 15+ jobs completed)  
-			AvailableJobs.Add(WorkOrder.CreateFitting(_nextJobNumber++, completed >= 15));
+			// Show Fitting (unlocked if threshold reached)
+			AvailableJobs.Add(WorkOrder.CreateFitting(_nextJobNumber++, completed >= FittingUnlockThreshold));
 
-			// Show Bracket (unlocked if 20+ jobs completed)
-			AvailableJobs.Add(WorkOrder.CreateBracket(_nextJobNumber++, completed >= 20));
+			// Show Bracket (unlocked if threshold reached)
+			AvailableJobs.Add(WorkOrder.CreateBracket(_nextJobNumber++, completed >= BracketUnlockThreshold));
 		}
 
 		public void AcceptJob(WorkOrder job)
@@ -211,19 +221,19 @@ namespace CNCMachinistSim.Services
 			var expenses = new List<string>();
 			int completed = CurrentPlayer.JobsCompleted;
 
-			// Rent every 5 jobs
-			if (completed > 0 && completed % 5 == 0 && _lastRentJob != completed)
+			// Rent every X jobs
+			if (completed > 0 && completed % RentJobInterval == 0 && _lastRentJob != completed)
 			{
-				CurrentPlayer.Charge(25m);
-				expenses.Add("📋 Shop rent: -$25.00");
+				CurrentPlayer.Charge(RentAmount);
+				expenses.Add($"📋 Shop rent: -{RentAmount:C2}");
 				_lastRentJob = completed;
 			}
 
-			// Machine maintenance every 10 jobs
-			if (completed > 0 && completed % 10 == 0 && _lastMaintenanceJob != completed)
+			// Machine maintenance every Y jobs
+			if (completed > 0 && completed % MaintenanceJobInterval == 0 && _lastMaintenanceJob != completed)
 			{
-				CurrentPlayer.Charge(50m);
-				expenses.Add("🔧 Machine maintenance: -$50.00");
+				CurrentPlayer.Charge(MaintenanceAmount);
+				expenses.Add($"🔧 Machine maintenance: -{MaintenanceAmount:C2}");
 				_lastMaintenanceJob = completed;
 			}
 
