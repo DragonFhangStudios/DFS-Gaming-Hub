@@ -17,7 +17,8 @@ namespace DFS.DevLauncher
 
 		private void LaunchPuzzle_Click(object sender, RoutedEventArgs e)
 		{
-			string puzzlePath = Path.GetFullPath(@"..\..\..\..\DFS.WPFLauncher\bin\Debug\net8.0-windows\DFS.WPFLauncher.exe");
+			string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+			string puzzlePath = Path.GetFullPath(Path.Combine(baseDir, @"..\..\..\..\DFS.WPFLauncher\bin\Debug\net8.0-windows\DFS.WPFLauncher.exe"));
 
 			if (File.Exists(puzzlePath))
 			{
@@ -33,7 +34,8 @@ namespace DFS.DevLauncher
 
 		private void LaunchSyndicate_Click(object sender, RoutedEventArgs e)
 		{
-			string syndicatePath = Path.GetFullPath(@"..\..\..\..\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.exe");
+			string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+			string syndicatePath = Path.GetFullPath(Path.Combine(baseDir, @"..\..\..\..\DFS.ProjectSyndicate\bin\Debug\net8.0-windows\DFS.ProjectSyndicate.exe"));
 
 			if (File.Exists(syndicatePath))
 			{
@@ -48,7 +50,8 @@ namespace DFS.DevLauncher
 		}
 		private void LaunchCharacterForge_Click(object sender, RoutedEventArgs e)
 		{
-			string forgePath = Path.GetFullPath(@"..\..\..\..\DFS.CharacterForge\bin\Debug\net8.0-windows\DFS.CharacterForge.exe");
+			string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+			string forgePath = Path.GetFullPath(Path.Combine(baseDir, @"..\..\..\..\DFS.CharacterForge\bin\Debug\net8.0-windows\DFS.CharacterForge.exe"));
 
 			if (File.Exists(forgePath))
 			{
