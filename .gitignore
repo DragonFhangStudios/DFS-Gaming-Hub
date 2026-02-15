@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.pdb
+*.dll
+*.cache
+*.json
+!appsettings.json
+!project.assets.json
+!global.json
+!launchSettings.json
