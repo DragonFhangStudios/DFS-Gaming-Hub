@@ -17,6 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="..\CNCMachinistSim\Services\GameManager.cs" Link="CNCMachinistSim\Services\GameManager.cs" />
+    <Compile Include="..\CNCMachinistSim\Models\Player.cs" Link="CNCMachinistSim\Models\Player.cs" />
+    <Compile Include="..\CNCMachinistSim\Models\Tool.cs" Link="CNCMachinistSim\Models\Tool.cs" />
+    <Compile Include="..\CNCMachinistSim\Models\WorkOrder.cs" Link="CNCMachinistSim\Models\WorkOrder.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DFS.Core\DFS.Core.csproj" />
     <ProjectReference Include="..\DFS.PuzzleFramework\DFS.PuzzleFramework.csproj" />
   </ItemGroup>
