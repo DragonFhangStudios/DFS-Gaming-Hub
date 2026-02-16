@@ -1,18 +1,75 @@
-﻿<Window x:Class="DFS.WPFLauncher.MainWindow"
+<Window x:Class="DFS.WPFLauncher.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="DFS Gaming Hub" Height="450" Width="800"
+        Title="DFS Gaming Hub" Height="600" Width="900"
+        Background="#1E1E1E"
         Loaded="Window_Loaded">
+
     <Grid>
-        <ScrollViewer>
-            <ItemsControl x:Name="GameList">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <ItemsControl x:Name="GameList" Margin="20">
+
+                <!-- Use a WrapPanel for the Grid Layout -->
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <!-- Define the Card Look -->
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Button Content="{Binding Title}" 
+                        <Button Click="LaunchGame_Click"
                                 Tag="{Binding DirectoryName}"
-                                Click="LaunchGame_Click" 
-                                Margin="10" Padding="15"
-                                FontSize="16" Background="#333" Foreground="White"/>
+                                Margin="10"
+                                Cursor="Hand"
+                                Width="200" Height="300">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="CardGrid" Property="Background" Value="#3E3E42"/>
+                                            <Setter TargetName="CardGrid" Property="RenderTransform">
+                                                <Setter.Value>
+                                                    <ScaleTransform ScaleX="1.05" ScaleY="1.05"/>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+
+                                    <Grid x:Name="CardGrid" Background="#2D2D30" RenderTransformOrigin="0.5,0.5">
+
+                                        <Grid.RenderTransform>
+                                            <ScaleTransform ScaleX="1.0" ScaleY="1.0"/>
+                                        </Grid.RenderTransform>
+
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="2*"/> <!-- Top 2/3rds for Icon -->
+                                            <RowDefinition Height="1*"/> <!-- Bottom 1/3rd for Title -->
+                                        </Grid.RowDefinitions>
+
+                                        <!-- Placeholder Icon (Game Controller) -->
+                                        <Viewbox Grid.Row="0" Margin="40">
+                                            <Path Data="M4,8 L20,8 C21.1,8 22,8.9 22,10 L22,14 C22,15.1 21.1,16 20,16 L16,16 L15,18 L9,18 L8,16 L4,16 C2.9,16 2,15.1 2,14 L2,10 C2,8.9 2.9,8 4,8 Z M7,11 C6.4,11 6,11.4 6,12 C6,12.6 6.4,13 7,13 C7.6,13 8,12.6 8,12 C8,11.4 7.6,11 7,11 Z M17,11 C16.4,11 16,11.4 16,12 C16,12.6 16.4,13 17,13 C17.6,13 18,12.6 18,12 C18,11.4 17.6,11 17,11 Z"
+                                                  Fill="#555" Stretch="Uniform"/>
+                                        </Viewbox>
+
+                                        <!-- Game Title -->
+                                        <TextBlock Grid.Row="1"
+                                                   Text="{Binding Title}"
+                                                   Foreground="White"
+                                                   FontWeight="Bold"
+                                                   FontSize="18"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Center"
+                                                   TextWrapping="Wrap"
+                                                   TextAlignment="Center"
+                                                   Margin="10"/>
+
+                                    </Grid>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
