@@ -1,0 +1,11 @@
+# DFS Gaming Hub Intelligence
+
+## Build Instructions
+- The master solution file is `DFS.Core.sln`.
+- Always restore and build from the solution root to ensure dependencies in `_Core` are linked correctly.
+- Primary build target: `_Apps/DFS.WPFLauncher`.
+
+## Architectural Boundaries
+- **_Core/**: Shared logic (C# 13, .NET 8). Do not add UI dependencies here.
+- **_Apps/**: Application entry points (WPF).
+- **_Games/**: Independent game projects. Do not modify unless explicitly requested.
