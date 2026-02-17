@@ -14,5 +14,21 @@ namespace DFS.Core.Models
 		public string ExePath => Path.Combine(FullPath, $"{DirectoryName}.exe");
 
 		public bool IsInstalled => Directory.Exists(FullPath);
+
+		public string? CoverImagePath
+		{
+			get
+			{
+				if (!IsInstalled) return null;
+
+				var coverPath = Path.Combine(FullPath, "cover.jpg");
+				if (File.Exists(coverPath)) return coverPath;
+
+				var headerPath = Path.Combine(FullPath, "header.png");
+				if (File.Exists(headerPath)) return headerPath;
+
+				return null;
+			}
+		}
 	}
 }
