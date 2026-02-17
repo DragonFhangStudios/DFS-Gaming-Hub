@@ -1,0 +1,202 @@
+[
+  {
+    "ID": "JOB-001",
+    "Title": "Operation Blue Sky",
+    "Description": "Extract flight data from a rival aerospace firm.",
+    "ClientName": "AeroTech Solutions",
+    "DifficultyLevel": 1,
+    "BaseReward": 500,
+    "FlavorText": "Just a standard grab and run. Don't trigger the alarms.",
+    "Niche": "Industrial Espionage"
+  },
+  {
+    "ID": "JOB-002",
+    "Title": "Hostile Takeover Prep",
+    "Description": "Plant incriminating evidence on a CEO's personal server.",
+    "ClientName": "Shadow Corp",
+    "DifficultyLevel": 2,
+    "BaseReward": 800,
+    "FlavorText": "Make it look like he was embezzling. The board needs a reason to fire him.",
+    "Niche": "Corporate Hijacking"
+  },
+  {
+    "ID": "JOB-003",
+    "Title": "Deep Dive Data Recovery",
+    "Description": "Recover lost research data from a corrupted deep-net node.",
+    "ClientName": "Research Institute",
+    "DifficultyLevel": 3,
+    "BaseReward": 1200,
+    "FlavorText": "The node is unstable. Get in, get the data, get out before it crashes.",
+    "Niche": "Deep-Net Sabotage"
+  },
+  {
+    "ID": "JOB-004",
+    "Title": "Prototype Schematics Theft",
+    "Description": "Steal the blueprints for a new drone engine.",
+    "ClientName": "Defense Contractor",
+    "DifficultyLevel": 4,
+    "BaseReward": 2000,
+    "FlavorText": "This is high-level tech. Expect heavy encryption.",
+    "Niche": "Industrial Espionage"
+  },
+  {
+    "ID": "JOB-005",
+    "Title": "Grid Shutdown",
+    "Description": "Disrupt the power grid of a corporate headquarters.",
+    "ClientName": "Activist Group",
+    "DifficultyLevel": 5,
+    "BaseReward": 3000,
+    "FlavorText": "Lights out. Let's see how they like working in the dark.",
+    "Niche": "Deep-Net Sabotage"
+  },
+  {
+    "ID": "JOB-006",
+    "Title": "Financial Record Alteration",
+    "Description": "Modify the quarterly earnings report before it's released.",
+    "ClientName": "Insider Trader",
+    "DifficultyLevel": 2,
+    "BaseReward": 900,
+    "FlavorText": "Just a few zeros here and there. No one will notice until it's too late.",
+    "Niche": "Corporate Hijacking"
+  },
+  {
+    "ID": "JOB-007",
+    "Title": "Satellite Uplink Intercept",
+    "Description": "Intercept communications from a competitor's satellite.",
+    "ClientName": "Space Agency",
+    "DifficultyLevel": 3,
+    "BaseReward": 1500,
+    "FlavorText": "They think their signal is secure. Prove them wrong.",
+    "Niche": "Industrial Espionage"
+  },
+  {
+    "ID": "JOB-008",
+    "Title": "Server Farm Overload",
+    "Description": "Overheat the cooling systems of a data center.",
+    "ClientName": "Rival Service Provider",
+    "DifficultyLevel": 4,
+    "BaseReward": 2200,
+    "FlavorText": "Burn it down. Digitally speaking.",
+    "Niche": "Deep-Net Sabotage"
+  },
+  {
+    "ID": "JOB-009",
+    "Title": "Executive Email Leak",
+    "Description": "Expose confidential emails to the public.",
+    "ClientName": "Whistleblower",
+    "DifficultyLevel": 1,
+    "BaseReward": 600,
+    "FlavorText": "The public has a right to know what they're hiding.",
+    "Niche": "Corporate Hijacking"
+  },
+  {
+    "ID": "JOB-010",
+    "Title": "Supply Chain disruption",
+    "Description": "Reroute a shipment of rare earth metals.",
+    "ClientName": "Black Market Dealer",
+    "DifficultyLevel": 3,
+    "BaseReward": 1300,
+    "FlavorText": "They won't miss a few tons of refined ore.",
+    "Niche": "Industrial Espionage"
+  },
+  {
+    "ID": "JOB-011",
+    "Title": "AI Algorithm Corruption",
+    "Description": "Introduce a subtle bias into a trading algorithm.",
+    "ClientName": "Hedge Fund Manager",
+    "DifficultyLevel": 5,
+    "BaseReward": 3500,
+    "FlavorText": "Make it make bad trades, but slowly. Bleed them dry.",
+    "Niche": "Deep-Net Sabotage"
+  },
+  {
+    "ID": "JOB-012",
+    "Title": "Patent Filing Delay",
+    "Description": "Hack the patent office database to delay a competitor's filing.",
+    "ClientName": "Startup Founder",
+    "DifficultyLevel": 2,
+    "BaseReward": 750,
+    "FlavorText": "We need more time. Buy us a week.",
+    "Niche": "Corporate Hijacking"
+  },
+  {
+    "ID": "JOB-013",
+    "Title": "Chemical Formula Theft",
+    "Description": "Steal the formula for a new pharmaceutical drug.",
+    "ClientName": "Generic Drug Manufacturer",
+    "DifficultyLevel": 4,
+    "BaseReward": 2500,
+    "FlavorText": "This could save lives... or make us a fortune.",
+    "Niche": "Industrial Espionage"
+  },
+  {
+    "ID": "JOB-014",
+    "Title": "Network Traffic Jam",
+    "Description": "Flood a corporate network with junk data.",
+    "ClientName": "Disgruntled Employee",
+    "DifficultyLevel": 1,
+    "BaseReward": 400,
+    "FlavorText": "Bring their productivity to a halt.",
+    "Niche": "Deep-Net Sabotage"
+  },
+  {
+    "ID": "JOB-015",
+    "Title": "Board Meeting Surveillance",
+    "Description": "Bug the virtual boardroom during a merger discussion.",
+    "ClientName": "Investor Group",
+    "DifficultyLevel": 3,
+    "BaseReward": 1400,
+    "FlavorText": "We need to know their price before we make an offer.",
+    "Niche": "Corporate Hijacking"
+  },
+  {
+    "ID": "JOB-016",
+    "Title": "Fuel Efficiency Data Heist",
+    "Description": "Steal data on a new fuel-efficient engine design.",
+    "ClientName": "Automotive Giant",
+    "DifficultyLevel": 2,
+    "BaseReward": 850,
+    "FlavorText": "Green energy is big business.",
+    "Niche": "Industrial Espionage"
+  },
+  {
+    "ID": "JOB-017",
+    "Title": "Crypto Exchange Hack",
+    "Description": "Drain a hot wallet from a minor exchange.",
+    "ClientName": "Anonymous",
+    "DifficultyLevel": 5,
+    "BaseReward": 4000,
+    "FlavorText": "High risk, high reward. Don't get traced.",
+    "Niche": "Deep-Net Sabotage"
+  },
+  {
+    "ID": "JOB-018",
+    "Title": "Reputation Smear Campaign",
+    "Description": "Plant fake reviews and scandals for a target company.",
+    "ClientName": "PR Firm",
+    "DifficultyLevel": 1,
+    "BaseReward": 550,
+    "FlavorText": "Destroy their image. Make them untouchable.",
+    "Niche": "Corporate Hijacking"
+  },
+  {
+    "ID": "JOB-019",
+    "Title": "Drone Navigation Override",
+    "Description": "Redirect a delivery drone to a new location.",
+    "ClientName": "Cargo Thief",
+    "DifficultyLevel": 2,
+    "BaseReward": 700,
+    "FlavorText": "Free shipping, courtesy of the competition.",
+    "Niche": "Industrial Espionage"
+  },
+  {
+    "ID": "JOB-020",
+    "Title": "Security System Bypass",
+    "Description": "Disable the biometric scanners for a secure facility.",
+    "ClientName": "Infiltration Team",
+    "DifficultyLevel": 4,
+    "BaseReward": 2100,
+    "FlavorText": "Open the door. We'll handle the rest.",
+    "Niche": "Deep-Net Sabotage"
+  }
+]

@@ -11,3 +11,4 @@
 !project.assets.json
 !global.json
 !launchSettings.json
+!**/JobManifest.json

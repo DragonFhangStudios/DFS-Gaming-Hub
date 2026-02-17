@@ -5,5 +5,8 @@ public record JobData(
     string Title,
     string Description,
     string ClientName,
-    int DifficultyLevel
+    int DifficultyLevel,
+    int BaseReward,
+    string FlavorText,
+    string Niche
 );
