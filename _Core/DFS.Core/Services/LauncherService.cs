@@ -31,7 +31,9 @@ public class LauncherService
 				if (!dirInfo.Name.StartsWith("."))
 				{
 					// Clean up the name (e.g., "DFS.ProjectSyndicate" -> "Project Syndicate")
-					string displayName = dirInfo.Name.Replace("DFS.", "").Replace(".", " ");
+					string baseName = dirInfo.Name.Replace("DFS.", "").Replace(".", " ");
+					// Regex split CamelCase
+					string displayName = System.Text.RegularExpressions.Regex.Replace(baseName, "(\\B[A-Z])", " $1");
 
 					games.Add(new GameProject(displayName, dirInfo.Name));
 				}
